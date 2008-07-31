@@ -40,7 +40,7 @@ This plugin is installed just like any other WordPress plugin. More [detailed in
 4. Activate the plugin in *Dashboard > Plugins*
 5. Customize from the *Settings > Contact* options menu
 6. Use the shortcode `[easy-contact]` on any page/post
-7. Enjoy—and then consider donating
+7. Enjoy (and then consider donating)
 
 In other words, just upload the `/easy-contact/` folder and its contents to your plugins folder.
 
