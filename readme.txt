@@ -133,3 +133,7 @@ They were deleted for ever and ever and ever. Upon deactivating, this plugins de
 = One last question. Can I use `[easy-contact]` in multiple pages/posts/places? =
 
 Yes. The shortcode will, however, produce exactly the same form based on the options set in the Easy Contact options menu. But you can use the shortcode in as many places as you like.
+
+== Screenshots ==
+
+1. Easy Contact options menu allows almost complete customization of email details and form content.
