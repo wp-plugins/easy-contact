@@ -4,7 +4,7 @@ DONATE LINK: http://www.plaintxt.org/about/#donate
 TAGS: email, contact, form, contact form, shortcode, sandbox, css, semantics, extensible xhtml, valid xhtml
 REQUIRES AT LEAST: 2.5
 TESTED UP TO: 2.6
-STABLE TAG: 0.1
+STABLE TAG: 0.1.1
 
 Easy Contact is a simple, highly extensible XHTML contact form featuring spam-reduction measures, GUI customization, and shortcode-based insertion.
 
@@ -14,7 +14,7 @@ Easy Contact is a simple contact form that utilizes the [Sandbox](http://www.pla
 
 Easy Contact features spam-reduction measures, GUI-based customization, carbon copying option, and more. Emails include tracked referrer information, including keywords for search-based landings, user agent, and IP.
 
-Included with Easy Contact is a basic style sheet file with images. Easy Contact features dynamic classes, so when an input field is returned to the user for an error-related issue, the input is given the class `error`.
+Included with Easy Contact is a basic style sheet file with images. Easy Contact features dynamic classes, so when an input field is returned to the user for an error-related issue, the input is given the class `error`, etc.
 
 If you are using the Sandbox or a Sandbox-based theme template, you probably won't need much (if any) CSS customization, as Easy Contact shares the same design patterns as the Sandbox comment form.
 
@@ -26,13 +26,13 @@ Easy Contact is for WordPress 2.6.x and features:
 * Options menu for complete customization of form content
 * Spam reduction measures, i.e., math- and/or challenge-based question
 * Secure plugin operation and highly semantic XHTML
-* Integration with Sandbox (or Sandbox-based) design patterns
-* Includes a starter CSS file with corresponding images for integration
-* Tracks user information, such as user agent, IP, referrer
+* Use of the Sandbox comment form design patterns
+* An included starter CSS file with corresponding images
+* Tracked information, e.g., user agent, user referrers, IP
 
 == Installation ==
 
-This plugin is installed just like any other WordPress plugin. More [detailed installation instructions](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "Installing Plugins - WordPress Codex") are available on the WordPress Codex.</p>
+This plugin is installed just like any other WordPress plugin. More [detailed installation instructions](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "Installing Plugins - WordPress Codex") are available on the WordPress Codex.
 
 1. Download Easy Contact
 2. Extract the `/easy-contact/` folder from the archive
@@ -40,7 +40,7 @@ This plugin is installed just like any other WordPress plugin. More [detailed in
 4. Activate the plugin in *Dashboard > Plugins*
 5. Customize from the *Settings > Contact* options menu
 6. Use the shortcode `[easy-contact]` on any page/post
-7. Enjoy (and then consider donating)
+7. Enjoy—and then consider donating
 
 In other words, just upload the `/easy-contact/` folder and its contents to your plugins folder.
 
@@ -63,7 +63,7 @@ Easy Contact is free software: you can redistribute it and/or modify it under th
 
 Easy Contact is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of **merchantability** or **fitness for a particular purpose**. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with Easy Contact.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/ "GNU General Public Licenses").
+You should have received a copy of the GNU General Public License along with Extended Options. If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/ "GNU General Public Licenses").
 
 == Frequently Asked Questions ==
 
@@ -81,7 +81,7 @@ You're insane. It's spam *prevention*. So less spam, yes.
 
 = Will my contact form be all jacked up on AJAX? =
 
-No. This is an extremely tidy and semantically rich XHTML form. No JavaScript is included (nor needed) with this plugin.
+No. This is an extremely tidy and semantically rich XHTML form. No JavaScript is included (or needed) with this plugin.
 
 = But I want a form plugin that fades and jumps and is draggable and magical. =
 
@@ -128,7 +128,7 @@ You may have to adjust the the URL above to locate the `econtact-basic.css` file
 
 = I deactivated and then reactivated this plugin. Where did my settings go? =
 
-They were deleted for ever and ever and ever. Upon deactivating, this plugins deletes all its stored data from your Wordpress database. Tidy? Yes. A surprise just now? Definitely.
+They were deleted for ever and ever and ever. Upon deactivating, this plugins deletes all its stored data from your WordPress database. Tidy? Yes. A surprise just now? Definitely.
 
 = One last question. Can I use `[easy-contact]` in multiple pages/posts/places? =
 

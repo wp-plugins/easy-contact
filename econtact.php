@@ -5,7 +5,7 @@ PLUGIN URI: http://www.plaintxt.org/experiments/easy-contact/
 DESCRIPTION: Easy Contact is a simple, semantic contact form that utilizes the <a href="http://www.plaintxt.org/themes/sandbox/">Sandbox</a> design patterns. Insert using <code>[easy-contact]</code>. A plaintxt.org experiment for WordPress.
 AUTHOR: Scott Allan Wallick
 AUTHOR URI: http://scottwallick.com/
-VERSION: 0.1 &beta;
+VERSION: 0.1.1 &beta;
 */
 
 /*
@@ -220,7 +220,17 @@ function ec_shortcode($attr) {
 		// Our form has to match the encoding the user is typing it in, i.e., your blog charset
 		$headers      .=  'Content-Type: text/plain; charset="' . get_option('blog_charset') . "\"\r\n";
 		// Our generic mailer-daemon is just going to be WordPress@EXAMPLE.COM, where EXAMPLE.COM is your domain in lowercase
-		$headers      .=  'From: WordPress <wordpress@' . preg_replace( '#^www\.#', '', strtolower($_SERVER['SERVER_NAME']) ) . ">\r\n";
+		$sitename      =  strtolower($_SERVER['SERVER_NAME']);
+		// If we have the www., let's drop it safely
+		if ( substr( $sitename, 0, 4 ) == 'www.' ) {
+			$sitename  =  substr( $sitename, 4 );
+		}
+		// Our from email address
+		$from_email    =  apply_filters( "wp_mail_from", "wordpress@$sitename" );
+		// Our from email name
+		$from_name     =  apply_filters( 'wp_mail_from_name', 'WordPress' );
+		// And we begin the headers
+		$headers      .=  "From: $from_name <$from_email>\r\n";
 		$headers      .=  "Reply-To: $user\r\n";
 		// Since we allow CC'ing, we can smartly only send one email
 		if ( $cc_option && $_POST['ec_option_cc'] ) {
@@ -237,14 +247,14 @@ function ec_shortcode($attr) {
 		$subject       =  attribute_escape(get_option('ec_subject')) . ' ' . $_POST['ec_subject'];
 		// And our actual message with extra stuff
 		$message       =  strip_tags(trim($_POST['ec_message'])) . "\n\n---\n";
-		$message      .=  __( 'Website: ', 'easy_contact' ) . strip_tags(trim($_POST['ec_url'])) . "\n";
+		$message      .=  __( 'Website: ', 'easy_contact' ) . strip_tags(trim($_POST['ec_url'])) . "\n\n---\n";
 		$message      .=  __( 'IP address: ', 'easy_contact' ) . 'http://ws.arin.net/whois/?queryinput=' . ec_get_ip() . "\n";
 		// Don't show keywords in the email unless we have some
 		if ($keywords) {
 			$message  .=  __( 'Keywords: ', 'easy_contact' ) . $keywords . "\n";
 		}
-		$message      .=  __( 'Form referer: ', 'easy_contact' ) . strip_tags(trim($_POST['ec_referer'])) . "\n";
-		$message      .=  __( 'Orig. referer: ', 'easy_contact' ) . $orig_referer . "\n";
+		$message      .=  __( 'Form referrer: ', 'easy_contact' ) . strip_tags(trim($_POST['ec_referer'])) . "\n";
+		$message      .=  __( 'Orig. referrer: ', 'easy_contact' ) . $orig_referer . "\n";
 		$message      .=  __( 'User agent: ', 'easy_contact' ) . trim($_SERVER['HTTP_USER_AGENT']) . "\n";
 		// Let's build our email and send it
 		mail( $to, $subject, $message, $headers );
