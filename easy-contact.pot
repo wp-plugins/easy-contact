@@ -7,10 +7,10 @@
 # the License, or (at your option) any later version.
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1\n"
+"Project-Id-Version: 0.1.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/easy-contact\n"
-"POT-Creation-Date: 2008-07-31 15:50+0000\n"
-"PO-Revision-Date: 2008-07-31 15:50+0000\n"
+"POT-Creation-Date: 2008-08-05 19:34+0000\n"
+"PO-Revision-Date: 2008-08-05 19:34+0000\n"
 "Last-Translator: Scott Allan Wallick <s@plaintxt.org>\n"
 "Language-Team: Scott Allan Wallick <s@plaintxt.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "Settings saved."
 msgstr ""
 
-#: econtact-menu.php:112 econtact.php:398
+#: econtact-menu.php:112 econtact.php:408
 msgid "Easy Contact"
 msgstr ""
 
@@ -400,117 +400,117 @@ msgstr ""
 msgid "Save Changes"
 msgstr ""
 
-#: econtact.php:240
+#: econtact.php:250
 msgid "Website: "
 msgstr ""
 
-#: econtact.php:241
+#: econtact.php:251
 msgid "IP address: "
 msgstr ""
 
-#: econtact.php:244
+#: econtact.php:254
 msgid "Keywords: "
 msgstr ""
 
-#: econtact.php:246
-msgid "Form referer: "
+#: econtact.php:256
+msgid "Form referrer: "
 msgstr ""
 
-#: econtact.php:247
-msgid "Orig. referer: "
+#: econtact.php:257
+msgid "Orig. referrer: "
 msgstr ""
 
-#: econtact.php:248
+#: econtact.php:258
 msgid "User agent: "
 msgstr ""
 
-#: econtact.php:340
+#: econtact.php:350
 msgid "Paris"
 msgstr ""
 
-#: econtact.php:341
+#: econtact.php:351
 msgid "What is the capital of France?"
 msgstr ""
 
-#: econtact.php:342
+#: econtact.php:352
 msgid "Confirmation"
 msgstr ""
 
-#: econtact.php:343
+#: econtact.php:353
 msgid "Your information"
 msgstr ""
 
-#: econtact.php:344
+#: econtact.php:354
 msgid "Your message"
 msgstr ""
 
-#: econtact.php:345
+#: econtact.php:355
 msgid "Email yourself a copy?"
 msgstr ""
 
-#: econtact.php:346
+#: econtact.php:356
 msgid "Email"
 msgstr ""
 
-#: econtact.php:347
+#: econtact.php:357
 msgid "Message"
 msgstr ""
 
-#: econtact.php:348
+#: econtact.php:358
 msgid "Name"
 msgstr ""
 
-#: econtact.php:349
+#: econtact.php:359
 msgid "Subject"
 msgstr ""
 
-#: econtact.php:350
+#: econtact.php:360
 msgid "Website"
 msgstr ""
 
-#: econtact.php:351
+#: econtact.php:361
 msgid "<p class=\"error\">Please complete all required fields.</p>"
 msgstr ""
 
-#: econtact.php:352
+#: econtact.php:362
 msgid ""
 "<p class=\"important\">Your answer is incorrect. <em>Cookies must be enabled "
 "to validate your response.</em></p>"
 msgstr ""
 
-#: econtact.php:353
+#: econtact.php:363
 msgid ""
 "<p class=\"information\">Required fields are marked <span class=\"required"
 "\">*</span>.</p>"
 msgstr ""
 
-#: econtact.php:354
+#: econtact.php:364
 msgid "<p class=\"error\">Please provide a valid email address.</p>"
 msgstr ""
 
-#: econtact.php:355
+#: econtact.php:365
 msgid ""
 "<p class=\"important\">Potentially malicious content was detected. You may "
 "not use <abbr title=\"HyperText Markup Language\">HTML</abbr> or other code, "
 "including <code>&lt;</code> and <code>&gt;</code>.</p>"
 msgstr ""
 
-#: econtact.php:356
+#: econtact.php:366
 msgid "<p class=\"success\">Your email was sent successfully.</p>"
 msgstr ""
 
-#: econtact.php:359
+#: econtact.php:369
 msgid "Administrator"
 msgstr ""
 
-#: econtact.php:360
+#: econtact.php:370
 msgid "<span class=\"required\">*</span>"
 msgstr ""
 
-#: econtact.php:361
+#: econtact.php:371
 msgid "Submit"
 msgstr ""
 
-#: econtact.php:398
+#: econtact.php:408
 msgid "Contact"
 msgstr ""
