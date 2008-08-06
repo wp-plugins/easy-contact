@@ -1,4 +1,4 @@
-# Easy Contact version 0.1 for WordPress
+# Easy Contact for WordPress
 # Copyright (C) 2008 Scott Allan Wallick
 # This file is part of Easy Contact.
 # Easy Contact is free software: you can redistribute it and/or
