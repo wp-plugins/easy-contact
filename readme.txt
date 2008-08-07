@@ -10,15 +10,9 @@ Easy Contact is a simple, highly extensible XHTML contact form featuring spam-re
 
 == Description ==
 
-Easy Contact is a simple contact form that utilizes the [Sandbox](http://www.plaintxt.org/themes/sandbox/ "Sandbox theme for WordPress") design patterns for semantic XHTML. You can insert this contact form using the shortcode `[easy-contact]` on any page or post.
+Easy Contact is a simple contact form that utilizes the [Sandbox](http://www.plaintxt.org/themes/sandbox/ "Sandbox theme for WordPress") design patterns to create a highly semantic, XHTML-based contact form you can insert using `[easy-contact]` on any page or post.
 
 Easy Contact features spam-reduction measures, GUI-based customization, carbon copying option, and more. Emails include tracked referrer information, including keywords for search-based landings, user agent, and IP.
-
-Included with Easy Contact is a basic style sheet file with images. Easy Contact features dynamic classes, so when an input field is returned to the user for an error-related issue, the input is given the class `error`, etc.
-
-If you are using the Sandbox or a Sandbox-based theme template, you probably won't need much (if any) CSS customization, as Easy Contact shares the same design patterns as the Sandbox comment form.
-
-Based partially on the now classic [WP Contact Form](http://wordpress.org/extend/plugins/wp-contact-form/ "WP Contact Form for WordPress"), Easy Contact includes newer WordPress features (e.g., shortcode) and greatly improved form security. Easy Contact is just another contact form, except built with clean XHTML and improved security.
 
 Easy Contact is for WordPress 2.6.x and features:
 
@@ -29,6 +23,8 @@ Easy Contact is for WordPress 2.6.x and features:
 * Use of the Sandbox comment form design patterns
 * An included starter CSS file with corresponding images
 * Tracked information, e.g., user agent, user referrers, IP
+
+Based partially on the classic [WP Contact Form](http://wordpress.org/extend/plugins/wp-contact-form/ "WP Contact Form for WordPress"), Easy Contact includes newer WordPress features (e.g., shortcode) and greatly improved form security. Easy Contact is just another contact form, except built with clean XHTML and improved security.
 
 == Installation ==
 
@@ -52,6 +48,10 @@ After activating this plugin, simply use the shortcode `[easy-contact]` wherever
 
 
 You will also want to customize the Easy Contact plugin from the *Settings > Contact* options menu. Here you can set the email address to receive submissions, text for legends, labels, and prompts, turn on spam reduction measure(s), etc.
+
+Included with Easy Contact is a example style sheet file with images. Easy Contact features dynamic classes, so when an input field is returned to the user for an error-related issue, the input is given the class `error`, etc.
+
+If you are using the Sandbox or a Sandbox-based theme template, you probably won't need much (if any) CSS customization, as Easy Contact shares the same design patterns as the Sandbox comment form.
 
 And so on. A very simple plugin.
 
