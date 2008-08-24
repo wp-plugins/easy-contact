@@ -4,7 +4,7 @@ DONATE LINK: http://www.plaintxt.org/about/#donate
 TAGS: email, contact, form, contact form, shortcode, sandbox, css, semantics, extensible xhtml, valid xhtml
 REQUIRES AT LEAST: 2.5
 TESTED UP TO: 2.6.1
-STABLE TAG: 0.1.1
+STABLE TAG: 0.1.2
 
 Easy Contact is a simple, highly extensible XHTML contact form featuring spam-reduction measures, GUI customization, and shortcode-based insertion.
 

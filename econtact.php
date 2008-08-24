@@ -5,7 +5,7 @@ PLUGIN URI: http://www.plaintxt.org/experiments/easy-contact/
 DESCRIPTION: Easy Contact is a simple, semantic contact form that utilizes the <a href="http://www.plaintxt.org/themes/sandbox/">Sandbox</a> design patterns. Insert using <code>[easy-contact]</code>. A plaintxt.org experiment for WordPress.
 AUTHOR: Scott Allan Wallick
 AUTHOR URI: http://scottwallick.com/
-VERSION: 0.1.1 &beta;
+VERSION: 0.1.2 &beta;
 */
 
 /*
@@ -416,7 +416,7 @@ add_shortcode( 'easy-contact', 'ec_shortcode' );
 register_activation_hook( __FILE__, 'ec_activation' );
 register_deactivation_hook( __FILE__, 'ec_deactivation' );
 // Allow localization, if applicable
-load_plugin_textdomain('easy_contact');
+load_plugin_textdomain( 'easy_contact', false, 'easy-contact' );
 // Register the options menu
 add_action( 'admin_menu', 'ec_initialize' );
 // Let's filter certain text in the form to help make it pretty
