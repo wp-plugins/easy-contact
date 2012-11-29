@@ -1,5 +1,5 @@
 === Easy Contact ===
-CONTRIBUTORS: scottwallick
+CONTRIBUTORS: plaintxt.org
 DONATE LINK: http://www.plaintxt.org/about/#donate
 TAGS: email, contact, form, contact form, shortcode, sandbox, css, semantics, extensible xhtml, valid xhtml
 REQUIRES AT LEAST: 2.5
